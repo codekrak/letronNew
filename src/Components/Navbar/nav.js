@@ -1,5 +1,14 @@
 import React from "react";
 
+var modal = document.getElementById('contactModal');
+var modalBtn = document.getElementById('contact');
+var closeBtn = document.getElementById('closebtn');
+
+// Event Listener
+
+
+// Function to Open Modal
+
 function Hello() {
     return (
 
@@ -22,9 +31,18 @@ function Hello() {
             </div>
 
             <div className="contactUs">
-                <button className="contact">
-                    Contact Us
-                </button>
+            
+                <button className="contact">Contact Us</button>
+                    <div className="contactModal">
+                        <div className="modalContent">
+                        <span className="closebtn"> &times; </span>
+                        <br></br>
+                        <br></br>
+                            <p>I am a modal</p>
+                        </div>
+                    </div>
+                
+
             </div>
 
         </div>
