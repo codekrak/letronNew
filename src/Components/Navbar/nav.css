@@ -21,7 +21,7 @@
 
 .faceBook {
     padding-left: 275px;
-    padding-top: 13px;
+    padding-top: 8px;
 }
 
 .faceButton {
@@ -29,51 +29,4 @@
     color: blue;
 }
 
-.contactUs {
-    padding-left: 20px;
-    padding-top: 13px;
-    font-family: sans-serif;
-}
-
-.contact {
-    background-color: blue;
-    color: aliceblue;
-    border-radius: 8px;
-}
-
-.contact:hover {
-    background: darkgray;
-}
-
-.contactModal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0; 
-    top: 0;
-    height: %;
-    width: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.2);
-}
-
-.modalContent {
-    background-color: aliceblue;
-    margin: 10% auto;
-    padding: 20px;
-    width: 70%;
-    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
-}
-
-.closebtn {
-    color: crimson;
-    float: right;
-    font-size: 30px;
-    
-}
-
-.closebtn:hover, .closebtn:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
+ 
