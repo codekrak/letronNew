@@ -29,4 +29,18 @@
     color: blue;
 }
 
+.modal {
+    display: none;
+}
+
+/* .button {
+    background: coral;
+    padding: 1em 2em;
+    color: aliceblue;
+    border: 0;
+}
+
+.button:hover {
+    background: rgb(82, 81, 81);
+} */
  
