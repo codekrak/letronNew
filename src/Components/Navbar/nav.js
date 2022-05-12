@@ -32,30 +32,28 @@ function Hello() {
 
             {/* Modal Button */}
             <div className="contactUs">
-                <button className="contact">Contact Us</button>
-                
-                <div classname="modal">
-                    <div classname="modal-dialog">
-                        <div classname="modal-content">
-                        
-                        <div classname="modal-header">
-                            <h5 classname="modal-title">Modal title</h5>
-                            <button type="button" classname="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        
-                        <div classname="modal-body">
-                            <p>Modal body text goes here.</p>
-                        </div>
 
-                        <div classname="modal-footer">
-                            <button type="button" classname="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" classname="btn btn-primary">Save changes</button>
-                        </div>
+                    <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Contact Us
+                    </button>
 
+                    
+                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Contact Information</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div className="modal-body">
+                            <h3>Phone Number:</h3><p>(786)205-8094</p>
+                            <h3>Email:</h3><p>letron0316@gmail.com</p>
+                        </div>
                         </div>
                     </div>
-                </div>
-
+                    </div>
+                
+                
             </div>
             
 

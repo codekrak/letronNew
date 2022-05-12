@@ -20,7 +20,7 @@
 }
 
 .faceBook {
-    padding-left: 275px;
+    padding-left: 350px;
     padding-top: 8px;
 }
 
@@ -29,18 +29,12 @@
     color: blue;
 }
 
-.modal {
-    display: none;
+.contactUs {
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 16px;
 }
 
-/* .button {
-    background: coral;
-    padding: 1em 2em;
-    color: aliceblue;
-    border: 0;
+.btn {
+    
 }
-
-.button:hover {
-    background: rgb(82, 81, 81);
-} */
- 
