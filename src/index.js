@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './Components/Navbar/nav.css';
+import './Components/Carousel/photos.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

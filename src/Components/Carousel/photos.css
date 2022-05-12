@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Lobster&family=Montserrat:wght@200&family=Oleo+Script+Swash+Caps&family=Raleway:wght@800&family=Satisfy&family=Tajawal:wght@200&display=swap');
+
+.startTitle {
+    font-family: 'Tajawal', sans-serif,bold;
+    background-color: lightgrey;
+    color: red;
+    padding-top: 50px;
+    
+}
+
+.carousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
