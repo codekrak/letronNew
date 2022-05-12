@@ -7,19 +7,19 @@ function Photos() {
 
         <div className="startTitle">
            <h1>Here is just some of our Work!</h1>
-
+            <div className="container-fluid">
             <div className="carousel">
                         
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img src="/workspace/letronNew/src/Components/Carousel/exteriorHouseImpact.jpg" className="d-block w-100" alt="..."/>
+                <img src="src/Components/Images/exteriorHouseImpact.jpg" className="d-block w-100" alt="exterior"/>
                 </div>
                 <div className="carousel-item">
-                <img src="/workspace/letronNew/src/Components/Carousel/IMG-20210402-WA0002.jpg" className="d-block w-100" alt="..."/>
+                <img src="/workspace/letronNew/src/Components/Carousel/IMG-20210402-WA0002.jpg" className="d-block w-100" alt="Impact Window Wide"/>
                 </div>
                 <div className="carousel-item">
-                <img src="/workspace/letronNew/src/Components/Carousel/IMG-20210402-WA0000.jpg" className="d-block w-100" alt="..."/>
+                <img src="/workspace/letronNew/src/Components/Carousel/IMG-20210402-WA0000.jpg" className="d-block w-100" alt="Impact Window Small"/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -34,6 +34,7 @@ function Photos() {
 
             </div>
 
+        </div>
         </div>
 
     );
