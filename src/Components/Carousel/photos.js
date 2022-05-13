@@ -6,7 +6,7 @@ function Photos() {
     return (
 
         <div className="startTitle">
-           <h1>Here is just some of our Work!</h1>
+           <h1><strong>Here is just some of our Work!</strong></h1>
             <div className="container-fluid">
             <div className="carousel">
                         

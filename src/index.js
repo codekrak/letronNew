@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './Components/Navbar/nav.css';
 import './Components/Carousel/photos.css';
+import './Components/AboutUs/about.css';
+import './Components/Footer/footer.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

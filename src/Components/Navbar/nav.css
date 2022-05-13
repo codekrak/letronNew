@@ -8,7 +8,7 @@
     font-family: 'Goldman';
     padding-left: 50px;
     padding-top: 5px;
-    color: aliceblue;
+    color: red;
     size-adjust: large;
 }
 
@@ -26,7 +26,7 @@
 
 .faceButton {
     border-radius: 16px;
-    color: blue;
+    background-color: lightgray;
 }
 
 .contactUs {
